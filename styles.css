@@ -1,0 +1,57 @@
+body {
+    margin: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: black;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px white;  
+    margin-top: 25px;  
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    line-height: 10%; 
+    background: #1B263B;
+    color: #E0E1DD;
+    border-bottom: 6px solid #9DC7C8;
+    border-radius: 20px;
+}
+.card:hover {
+    background-color: #023047;
+}
+
+
+a:link {
+  color: #778DA9;
+}
+a:visited {
+  color: #E0E1DD;
+}
+a:hover {
+  color: #778DA9;
+}
+a:active {
+  color: yellow;
+}
+
+
+.italic {
+    font-style: italic;
+}
+
+.extra-spacing {
+    line-height: 30px;
+}
+h3 {
+    line-height: 30px;
+    font-size: 20px;
+}
